@@ -1,9 +1,9 @@
-GUIA ACTUAL PARA CORRERLO:
-
-sudo docker network create IRC
-sudo docker run --net=IRC -it server
-(chequear la IP del servidor)
-sudo docker run --net=IRC -it client
-(en el cliente ejecutar lo siguiente)
-/server add local IPSERVER
-/connect local
+GUIA ACTUAL PARA CORRERLO:<br/>
+<br/>
+sudo docker network create IRC<br/>
+sudo docker run --net=IRC -it server<br/>
+(chequear la IP del servidor)<br/>
+sudo docker run --net=IRC -it client<br/>
+(en el cliente ejecutar lo siguiente)<br/>
+/server add local IPSERVER<br/>
+/connect local<br/>
