@@ -11,7 +11,7 @@ sudo docker build -t client .<br/>
 
 sudo docker network create IRC<br/>
 sudo docker run --net=IRC -it server<br/>
-(chequear la IP del servidor)<br/>
+(chequear la IP del servidor, por ejemplo con "sudo docker network inspect IRC)<br/>
 sudo docker run --net=IRC -it client<br/>
 (en el cliente ejecutar lo siguiente)<br/>
 /server add local IPSERVER<br/>
