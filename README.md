@@ -16,3 +16,6 @@ sudo docker run --net=IRC -it client<br/>
 (en el cliente ejecutar lo siguiente)<br/>
 /server add local IPSERVER<br/>
 /connect local<br/>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TTblLelks9E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
