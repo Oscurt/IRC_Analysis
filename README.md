@@ -40,6 +40,13 @@ Para conectarse al servidor se debe verificar la IP del server, esto debe ser un
 $ docker network inspect IRC
 ```
 
+Dentro del cliente para conectarse debemos agregar el server, por ende una vez en weechat usar:
+
+```sh
+\server add "nombre" "ipserver"
+\connect "nombre"
+```
+
 Video con la captura:
 
 [![IRC Analysis](https://img.youtube.com/vi/TTblLelks9E/hqdefault.jpg)](https://youtu.be/TTblLelks9E)
