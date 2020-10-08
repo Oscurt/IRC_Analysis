@@ -47,4 +47,4 @@ EXPOSE 6666/tcp 6667/tcp 6697/tcp
 
 ENTRYPOINT ["weechat"]
 
-#sudo docker run --net=IRC -it client
+# sudo docker run --net=IRC -it client

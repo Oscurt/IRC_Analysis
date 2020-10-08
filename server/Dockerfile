@@ -23,3 +23,5 @@ WORKDIR /oragono-2.3.0/
 ENTRYPOINT ["./oragono", "run"]
 
 # sudo docker run --net=IRC -it server
+# /server add local 172.18.0.2
+# /connect local
