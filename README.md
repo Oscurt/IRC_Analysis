@@ -60,5 +60,5 @@ Video con la captura:
 
 Video con el trafico modificado:
 
-[![IRC Analysis](https://img.youtube.com/vi/TTblLelks9E/hqdefault.jpg)](https://youtu.be/TTblLelks9E)
+[![Manipulacion de trafico IRC](https://img.youtube.com/vi/QhbpBZOFHFI/hqdefault.jpg)](https://youtu.be/QhbpBZOFHFI)
 

@@ -4,7 +4,7 @@ def fun5(packet):
             data = packet['IRC']['request'].split(" ")
             if data[0] == 'JOIN':
                 packet['IRC']['request'] = 'QUIT : WeeChat2.9'
-                print("desconectalo')
+                print('desconectalo')
                 return packet
     except:
         print("except")
