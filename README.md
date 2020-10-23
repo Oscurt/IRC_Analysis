@@ -1,4 +1,4 @@
-El presente repositorio muestra un proyecto para la tarea "Analisis Informatico y de Telecomunicaciones deProtocolo de Aplicacion de red", para el curso Taller de redes y servicios.
+El presente repositorio muestra un proyecto que busca analizar el trafico IRC de un servidor y un cliente, para ello se realizaran diversos test, para lograr un analisis completo.
 
 En este se presentan dos carpetas, cada una contiene un dockerfile. Estas aplicaciones son para poder realizar un analisis sobre el protocolo IRC, ademas de estos archivos, tenemos un informe en PDF sobre el mismo, un video y una captura de wireshark.
 
@@ -14,6 +14,7 @@ Luego correr los dockerfile:
 ```sh
 $ docker build -t server IRC_Analysis/server
 $ docker build -t client IRC_Analysis/client
+$ docker build -t client IRC_Analysis/polymorph
 ```
 
 Creamos una red con docker:
@@ -34,6 +35,12 @@ Ahora el cliente:
 $ docker run --net=IRC -it client
 ```
 
+Ahora polymorph 
+
+```sh
+$ docker run --privileged --net=IRC -it poly
+```
+
 Para conectarse al servidor se debe verificar la IP del server, esto debe ser una vez el server este corriendo, pues le asignara una IP, esta la podemos consultar con el siguiente comando:
 
 ```sh
@@ -48,6 +55,10 @@ Dentro del cliente para conectarse debemos agregar el server, por ende una vez e
 ```
 
 Video con la captura:
+
+[![IRC Analysis](https://img.youtube.com/vi/TTblLelks9E/hqdefault.jpg)](https://youtu.be/TTblLelks9E)
+
+Video con el trafico modificado:
 
 [![IRC Analysis](https://img.youtube.com/vi/TTblLelks9E/hqdefault.jpg)](https://youtu.be/TTblLelks9E)
 
