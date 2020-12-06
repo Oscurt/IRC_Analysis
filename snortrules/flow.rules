@@ -1,0 +1,2 @@
+# mensaje desde cualquier lugar.
+alert tcp $HOME_NET any -> any any (content:"PRIVMSG"; msg:"URL en chat"; flow:to_server,established; sid:1000003;)

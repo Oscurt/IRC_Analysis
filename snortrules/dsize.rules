@@ -1,0 +1,2 @@
+# podemos hacer el inverso de este, pues menor a 64 es lo comun
+alert  tcp any any -> any any (msg:"PAQUETE CON TAMANO ANOMALO";  dsize :<64;sid :1000004;)

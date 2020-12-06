@@ -4,10 +4,10 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y\
 && apt-get upgrade -y\
-&& apt-get install build-essential python-dev libnetfilter-queue-dev tshark tcpdump python3-pip wireshark git net-tools iptables vim gedit nano linux-modules-5.4.0-52-generic kmod -y\
+&& apt-get install build-essential python-dev libnetfilter-queue-dev tshark tcpdump python3-pip wireshark git net-tools iptables vim gedit nano linux-modules-5.4.0-53-generic kmod -y\
 && pip3 install git+https://github.com/kti/python-netfilterqueue\
-&& pip3 install polymorph\
-&& modprobe ip6table_filter
+&& pip3 install polymorph 
+# RUN modprobe ip6table_filter
 
 #COPY utils.py /usr/local/lib/python3.8/dist-packages/polymorph/
 COPY functions /usr/local/lib/python3.8/dist-packages/polymorph/functions/

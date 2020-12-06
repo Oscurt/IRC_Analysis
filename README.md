@@ -62,3 +62,7 @@ Video con el trafico modificado:
 
 [![Manipulacion de trafico IRC](https://img.youtube.com/vi/QhbpBZOFHFI/hqdefault.jpg)](https://youtu.be/QhbpBZOFHFI)
 
+Video con snort:
+
+[![Snort en IRC](https://img.youtube.com/vi/4PVN7uKdFJ8/hqdefault.jpg)](https://youtu.be/4PVN7uKdFJ8)
+

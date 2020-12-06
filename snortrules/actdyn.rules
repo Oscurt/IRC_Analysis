@@ -1,0 +1,3 @@
+# activate/dinamic
+activate tcp $HOME_NET any -> $HOME_NET any (msg:"PRIVMSG ENVIADO"; content:"PRIVMSG"; flowbits:set,payload; sid:1000005; rev:1; activates:1;)
+dynamic tcp $HOME_NET any -> $HOME_NET any (activated_by:1; count:100; pcre :"/(https?:\/\/)|(www.)/"; msg:"URL"; sid:1000006;)

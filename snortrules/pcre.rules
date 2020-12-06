@@ -1,0 +1,2 @@
+# PCRE USANDO REGEX, BUSCA LINK, LO CUAL PODRIA DERIVAR EN FALLAS.
+alert tcp $HOME_NET any -> $HOME_NET 6667 (msg:"Posible URL"; pcre :"/(https?:\/\/)|(www.)/";  sid :1000001;)
